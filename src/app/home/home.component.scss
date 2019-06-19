@@ -1,0 +1,164 @@
+
+
+.home-lp .btn {
+    font-size: 1rem;
+}
+
+.pricing-card {
+    text-align: center;
+}
+
+.pricing-card .price {
+    position: relative;
+    padding-top: 3.94rem;
+}
+
+.pricing-card .price .number {
+    font-size: 5rem;
+    padding: 1.5rem;
+    font-weight: 300;
+}
+
+.pricing-card .price .number:before {
+    content: "¥";
+    position: absolute;
+    font-size: 1.88rem;
+    margin-left: -1.2rem;
+    margin-top: .7rem;
+}
+
+.pricing-card .price .number:after {
+    content: "/月";
+    position: absolute;
+    font-size: 1.88rem;
+    margin-top: 3rem;
+}
+
+.pricing-card .striped.darker-striped li {
+    border-top: 1px solid rgba(153,153,153,.298039);
+}
+
+.pricing-card .striped li {
+    border-top: 1px solid rgba(238,238,238,.298039);
+    margin-bottom: 1rem;
+}
+
+.home-lp .streak.streak-md {
+    height: auto;
+}
+
+.streak.streak-photo {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+}
+
+.streak {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    height: 250px;
+}
+
+.btn-floating.btn-lg {
+    width: 60px;
+    height: 60px;
+}
+
+.home-lp .btn-floating {
+    -webkit-box-shadow: 0 5px 11px 0 rgba(74,124,255,.24), 0 4px 15px 0 rgba(65,97,198,.15);
+    box-shadow: 0 5px 11px 0 rgba(74,124,255,.24), 0 4px 15px 0 rgba(65,97,198,.15);
+}
+
+.btn-floating {
+    -webkit-box-shadow: 0 5px 11px 0 rgba(0,0,0,.18), 0 4px 15px 0 rgba(0,0,0,.15);
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,.18), 0 4px 15px 0 rgba(0,0,0,.15);
+    width: 47px;
+    height: 47px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    overflow: hidden;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    margin: 10px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    padding: 0.5rem;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.home-lp .spacing {
+    letter-spacing: 1px;
+}
+
+.home-lp p {
+    font-size: 1rem;
+    line-height: 1.8rem;
+}
+
+.home-lp .testimonial-card .card-up {
+    height: 39px;
+}
+
+.home-lp .btn.pup-gradient, .home-lp .btn.pink-gradient:active, .home-lp .btn.pink-gradient:focus, .home-lp .pink-gradient {
+    background: -webkit-linear-gradient(50deg, #ba68c8, #ab47bc);
+    background: -o-linear-gradient(50deg, #ba68c8, #ab47bc);
+    background: linear-gradient(40deg, #ba68c8, #ab47bc);
+}
+
+.testimonial-card .card-up {
+    overflow: hidden;
+    height: 120px;
+    -webkit-border-top-left-radius: .25rem;
+    border-top-left-radius: .25rem;
+    -webkit-border-top-right-radius: .25rem;
+    border-top-right-radius: .25rem;
+}
+
+.home-lp .section.team-section .avatar {
+    margin-bottom: 0;
+}
+
+.testimonial-card .avatar {
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    width: 120px;
+    margin-top: -60px;
+    overflow: hidden;
+    border: 5px solid #fff;
+}
+
+section.team-section .avatar img.rounded-circle {
+    max-width: 150px;
+}
+
+section.team-section .avatar img {
+    max-width: 200px;
+    height: auto;
+}
+
+.testimonial-card .avatar img {
+    width: 100%;
+}
+
+.home-lp .contact-icons .fa-2x {
+    font-size: 2rem;
+}
+
+// Responsive width
+.m-responsive {
+    width: 50%;
+  
+    @media (max-width: 740px) {
+      width: 100%;
+    }
+}
+
+.text-white-90 {
+    color: rgba(255, 255, 255, 0.8) !important;
+}

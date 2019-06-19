@@ -1,1 +1,67 @@
 /* You can add global styles to this file, and also import other style files */
+@import url(../node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css);
+
+body, html { 
+  font-family: PingFangSC-Light,helvetica neue,hiragino sans gb,arial,microsoft yahei ui,microsoft yahei,simsun,sans-serif;
+}
+
+html,
+body,
+header,
+.jarallax {
+  height: 100%;
+}
+
+@media (min-width: 560px) and (max-width: 740px) {
+  html,
+  body,
+  header,
+  .jarallax {
+    height: 500px;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 850px) {
+  html,
+  body,
+  header,
+  .jarallax {
+    height: 500px;
+  }
+}
+
+.btn-rounded {
+    -webkit-border-radius: 10em;
+    border-radius: 10em;
+}
+
+.fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+
+.navbar .nav-item .nav-link {
+  font-size: 0.875rem;
+  padding: 0 16px;
+}
+
+.ml-auto .nav-item .nav-link {
+  padding: 0 12px;
+}
+
+.home-lp .icon-area .circle-icon .circle-round {
+  -webkit-box-shadow: 0 8px 19px rgba(91,154,251,.41);
+  box-shadow: 0 8px 19px rgba(91,154,251,.41);
+  width: 90px!important;
+  height: 90px;
+  padding: 1.6rem;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: #FFF;
+  margin: auto;
+}
