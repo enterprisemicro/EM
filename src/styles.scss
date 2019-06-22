@@ -65,3 +65,28 @@ header,
   background: #FFF;
   margin: auto;
 }
+
+.home-lp .icon-area .circle-icon .circle-round:hover {
+  background-color: rgba(156, 39, 176, 0.1);
+}
+
+
+.home-lp .mat-step-label {
+  font-size: 1.125rem !important;
+}
+
+.home-lp .mat-step-icon {
+  font-size: 1.125rem;
+  height: 40px;
+  width: 40px;
+}
+.home-lp .mat-step-header .mat-step-icon {
+  background-color: rgba(0,0,0,.2);
+}
+.home-lp .mat-step-header .mat-step-icon.mat-step-icon-selected {
+  background-color: #aa66cc;
+}
+
+.home-lp .mat-stepper-horizontal {
+  background-color: inherit;
+}
