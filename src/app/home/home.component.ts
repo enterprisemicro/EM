@@ -16,7 +16,7 @@ export class HomeComponent implements OnInit {
 
 
   ngOnInit() {
-    this.titleService.setTitle( "Home | " + this.titleService.getTitle() );
+    this.titleService.setTitle(this.titleService.getTitle());
 
     this.firstFormGroup = this._formBuilder.group({
       firstCtrl: ['', Validators.required]
