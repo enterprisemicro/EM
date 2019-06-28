@@ -1,12 +1,57 @@
-.page-footer  ul li {
+.page-footer  ul > li {
     float: left;
     width: 20%;
     list-style: none;
 }
 
+.page-footer  ul > li > a {
+    display: inline-block;
+}
+
 .page-footer ul {
     width: 100%;
-    padding-inline-start: 0px;
+    float: left;
+    padding: 0px;
+    margin: 0px;
+}
+
+@media (max-width: 767px) {
+    .page-footer ul {
+        font-size: 0.875rem;
+    }
+    .page-footer ul > li:nth-of-type(1) {
+        width: 50%;
+        padding-right: 5%;
+        padding-bottom: 13px;
+        border-bottom: solid 1px rgba(255, 255, 255, 0.09);
+        text-align: right;
+    }
+
+    .page-footer ul fa-icon {
+        display: block
+    }
+
+    .page-footer ul > li:nth-of-type(2) {
+        width: 50%;
+        padding-left: 5%;
+        padding-bottom: 13px;
+        border-bottom: solid 1px rgba(255, 255, 255, 0.09);
+        text-align: left;
+    }
+
+    .page-footer ul > li {
+        width: 33.3333%
+    }
+
+    .page-footer ul > li > a {
+        height: 100px;
+        padding: 13px 5px 0;
+        text-align: center;
+    }
+
+    .page-footer ul > li > a > div{
+        margin-left: 0px !important;
+    }
 }
 
 .page-footer p {
